@@ -38,6 +38,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
+    String name;
     private EditText edMonthly;
     boolean isNext = false;
     private Spinner cities;
